@@ -10,15 +10,12 @@ This project is a simple but fun **Dice Roller Simulator** built using Python.
 
 - 🎲 Simulates a 6-sided dice roll
 - 🔁 Allows user to roll repeatedly
-- 🎉 Displays Unicode dice face (⚀ to ⚅)
-- 💻 Lightweight CLI output with screen clearing for better experience
 
 ---
 
 ## 🧰 Technologies Used
 
 - `random` – to simulate dice values
-- `os` – to clear the screen for repeated rolls
 - `time` – to create a rolling delay effect
 
 ---
@@ -28,31 +25,15 @@ This project is a simple but fun **Dice Roller Simulator** built using Python.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sunilrajpurohit/day3-dice-roller.git
-cd day3-dice-roller
+git clone https://github.com/sunil-rajpurohit/Dice-Roller-Game-Day3.git
+cd Dice-Roller-Game
 ```
 
 ### 2. Run the Script
 
 ```bash
-python dice_roller.py
+python Dice-Roller-Game-Day3
 ```
-
----
-
-## 🎓 What I Learned
-
-- How to use `random.randint()` to simulate dice roll logic.
-- Displaying **Unicode characters** instead of plain numbers to make it visually appealing.
-- Used `time.sleep()` to simulate rolling animation.
-- Used `os.system('cls' or 'clear')` to clear the terminal for each new roll.
-
----
-
-## ⏱ Project Time & Difficulty
-
-- **Total Time Spent:** ~45 minutes  
-- **Difficulty Level:** 🟢 Easy and fun!  
 
 ---
 
@@ -71,8 +52,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 👨‍💻 Author
 
 **Sunil Rajpurohit**  
-Follow my journey on [LinkedIn](https://www.linkedin.com/in/sunilrajpurohit)
+Follow my journey on [LinkedIn](https://www.linkedin.com/in/sunil-rajpurohit)
 
 ---
-
-`#50DaysOfPython` `#PythonProjects` `#DiceRoller` `#BeginnerPython` `#SunilRajpurohit`
