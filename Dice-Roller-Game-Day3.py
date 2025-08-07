@@ -17,10 +17,11 @@ def main_func():
             roll_dice()
 
         elif choice == "n":
-            print("\nThanks fpr playing! see you next time! ")
+            print("\nThanks for playing! see you next time! ")
             break
         else:
             print("Invalid Input, Please enter 'y' to roll or 'n' to exit.\n")
 
 if __name__ == "__main__":
+
     main_func()
